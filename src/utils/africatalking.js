@@ -26,7 +26,7 @@ export async function fetchAccountInfo() {
 export async function sendMessage(numberList) {
     const options = {
         to: numberList,
-        message: "I'm a lumberjack and it's ok, I sleep all night and I work all day. \n https://account.africastalking.com/apps/bbdogirnxw",
+        message: "AJOSDATA is celebrating our anniversary with a once-in-a-lifetime bonanza! 🎉 \n Don’t miss out on amazing offers. Visit the link below for more info. \n https://ajosdata.netlify.app",
         // from: 'YourSenderId' // Uncomment this if you have a specific sender ID
     };
 
