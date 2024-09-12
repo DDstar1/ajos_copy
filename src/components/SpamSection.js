@@ -9,11 +9,11 @@ import DetailPage from "./DetailPage";
 const handleSubmit = async (list, setLoading, setResponseData) => {
   setLoading(true);
   const listString = list.join("-");
-  console.log(listString);
+  // console.log(listString);
 
   try {
     const sms_response = await fetch(
-      `/api/send_message/${encodeURIComponent('+2349035360809')}`
+      `/api/send_message/${encodeURIComponent(listString)}`
     );
 
     if (!sms_response.ok) {
